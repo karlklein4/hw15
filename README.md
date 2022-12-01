@@ -1,16 +1,20 @@
 # Hangman
 
-## Selle README.md sisukord
+## README.md sisukord
 
 - Tehnoloogia
+- Projekti alus
 - Funktsionaalsete nõuete loetelu
-- Installimine
-- Kasutamine
+- Tööde jaotus
 - Koostajad
 
 ## Tehnoloogia
 
 Tehnoloogia, millega töö implementeeritakse ehk programmeerimiskeel on Python3.
+
+## Projekti alus
+
+Projekti aluseks on võetud [Tech with Mike koodibaas](https://www.mrmichaelsclass.com/python-programming/python-projects/hangman)
 
 ## Funktsionaalsete nõuete loetelu:
 
@@ -61,3 +65,7 @@ Tehnoloogia, millega töö implementeeritakse ehk programmeerimiskeel on Python3
 
 - KeitiEk – GUI mehikese kuvamiseks
 - FrenchFriesForBallerina – Web Scraping sõnade otsimiseks
+
+## Koostajad
+
+FrenchFriesForBallerina, karlklein4, KeitiEk
