@@ -71,9 +71,9 @@ def wrong_letter():
 while True:
     print('=====================')
     if game.guesses_left > 1:
-        print(game.guesses_left, "guesses left.")
+        print("You have", game.guesses_left, "mistakes left.")
     else:
-        print(game.guesses_left, "guess left")
+        print("You have", game.guesses_left, "mistake left.")
     guess = input("Guess a letter: ")
     if guess in game.word:
         print("Let me check")

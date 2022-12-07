@@ -27,10 +27,10 @@ Projekti aluseks on võetud [Tech with Mike koodibaas](https://www.mrmichaelscla
 ### Arvamiste haldamine
 
 - Arvamiste arv on 6.
-- Programm kuvab kasutajatele allesjäänud arvamiste arvu enne iga arvamist.
-- Kasutaja annab sisendi terminali kaudu, sisendiks võib olla kas täht või mitu tähte (sõna).
+- Programm kuvab kasutajatele allesjäänud eksimuste arvu enne iga arvamist.
+- Kasutaja annab sisendi terminali kaudu, sisendiks võib olla täht.
 - Programm jätab meelde kõik unikaalsed sisendid kasutajalt.
-- Kasutajalt sisendi saamisel programm võrdleb, kas kasutaja sisestatud täht/sõna on äraarvatavas sõnas olemas.
+- Kasutajalt sisendi saamisel programm võrdleb, kas kasutaja sisestatud täht on äraarvatavas sõnas olemas.
 
 ### Õiged arvamised
 
@@ -47,24 +47,6 @@ Projekti aluseks on võetud [Tech with Mike koodibaas](https://www.mrmichaelscla
 - Kui kasutaja proovib arvata korraga sõna/sõnaosa ja arvab valesti, siis kuvab programm kasutajale sõnumi “is not in my word” koos kõikide valesti arvatud tähte/sõnadega.
 - Kui kasutaja on teist korda sama tähte/sõna valesti arvanud, siis talle kuvatakse sõnum: "You already guessed " koos valesti arvatud tähe/sõnaga. Valesti arvamiste arv sel juhul ei suurene, jääb samaks.
 - Kui kasutaja valesti arvamiste arv võrdub 6-ga, puuakse kriipsumehike üles ja kasutaja kaotab. Kasutajale kuvatakse sõnum "Game Over!” ja seejärel kuvatakse "I picked" ja sõna, mille programm tekstifailist äraarvamiseks valis.
-
-## Tööde jaotus
-
-### karlklein4
-
-- Kirjutab ümber koodi tutoriali järgi.
-- Muudab koodi nii, et mängija saaks arvata 6 korda.
-- Kirjutab koodi sisse programmiread, mille abil kuvatakse kasutajale enne iga arvamist allesjäänud arvamiste arvu, näiteks sõnumiga “You have [x] guesses left.”, kus x on allesjäänud arvamiste arv.
-
-### KeitiEk ja FrenchFriesForBallerina
-
-- Kirjutavad testid arvamiste arvu kohta (näiteks test, mis kontrollib, et väljastataks õiged sõnumid olenevalt allesjäänud arvamiste arvule, jne.).
-- Moodustavad klassi (näiteks klass Game, mis hoiab infot ühe mängu kohta).
-
-### Kui aega üle jääb:
-
-- KeitiEk – GUI mehikese kuvamiseks
-- FrenchFriesForBallerina – Web Scraping sõnade otsimiseks
 
 ## Koostajad
 
