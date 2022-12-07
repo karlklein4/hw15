@@ -25,7 +25,7 @@ Projekti aluseks on võetud [Tech with Mike koodibaas](https://www.mrmichaelscla
 
 ### Arvamiste haldamine
 
-- Arvamiste arv on 6.
+- Arvamiste arv on piiramatu, eksimiste arv on 6.
 - Programm kuvab kasutajatele allesjäänud eksimuste arvu enne iga arvamist.
 - Kasutaja annab sisendi terminali kaudu, sisendiks võib olla täht.
 - Programm jätab meelde kõik unikaalsed sisendid kasutajalt.
@@ -40,11 +40,10 @@ Projekti aluseks on võetud [Tech with Mike koodibaas](https://www.mrmichaelscla
 
 ### Valed arvamised
 
-- Kui kasutaja arvas valesti, jätab programm selle meelde ja lisab tähe või sõna valede arvamiste loetellu.
+- Kui kasutaja arvas valesti, jätab programm selle meelde ja lisab tähe valede arvamiste loetellu. Programm kuvab kasutajale sõnumi “is not in my word” koos kõikide valesti arvatud tähtedega.
 - Iga valesti arvamisega väheneb allesjäänud arvamiste arv ühe võrra.
 - Iga valesti arvamisega lisandub mehikesele pea, keha, 1. käsi, 2. käsi, 1. jalg, 2. jalg.
-- Kui kasutaja proovib arvata korraga sõna/sõnaosa ja arvab valesti, siis kuvab programm kasutajale sõnumi “is not in my word” koos kõikide valesti arvatud tähte/sõnadega.
-- Kui kasutaja on teist korda sama tähte/sõna valesti arvanud, siis talle kuvatakse sõnum: "You already guessed " koos valesti arvatud tähe/sõnaga. Valesti arvamiste arv sel juhul ei suurene, jääb samaks.
+- Kui kasutaja on teist korda sama tähte valesti arvanud, siis talle kuvatakse sõnum: "You already guessed" koos valesti arvatud tähega. Valesti arvamiste arv sel juhul ei suurene, jääb samaks.
 - Kui kasutaja valesti arvamiste arv võrdub 6-ga, puuakse kriipsumehike üles ja kasutaja kaotab. Kasutajale kuvatakse sõnum "Game Over!” ja seejärel kuvatakse "I picked" ja sõna, mille programm tekstifailist äraarvamiseks valis.
 
 ## Koostajad
