@@ -51,7 +51,7 @@ def add_letter():
 
 #Prints out wrong letters
 def wrong_letter():
-    print("Wrong letters:", end = "")
+    print("Wrong letters: ", end = "")
     for i in wrong:
         print(i,' ',end = "")
     print()
@@ -59,7 +59,7 @@ def wrong_letter():
 #Main Loop        
 while True:
     print('=====================')
-    guess = input("Guess a letter")
+    guess = input("Guess a letter: ")
     if guess in picked:
         print("Let me check")
 
@@ -89,7 +89,7 @@ while True:
             wrong_letter()
             parts(len(wrong))
             
-    if len(wrong) > 4:
+    if len(wrong) >= 6:
         print("Game Over!")
         print("I picked", picked)
         break
@@ -98,4 +98,5 @@ while True:
         print("You guessed it!")
         print("I picked", picked)
         break
+
 # https://www.mrmichaelsclass.com/python-programming/python-projects/hangman
