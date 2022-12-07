@@ -1,7 +1,4 @@
 cat
-
 dog
-
 robot
-
 paper

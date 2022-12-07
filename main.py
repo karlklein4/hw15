@@ -25,7 +25,17 @@ def wait():
 wait()
 
 #List of words
-words = ['mouse', 'cat', 'fish', 'robot', 'computer']
+
+file = open("words.txt", "r")
+  
+# reading the file
+data = file.read()
+  
+# replacing end splitting the text 
+# when newline ('\n') is seen.
+words = data.split("\n")
+file.close()
+        
 
 picked = random.choice(words)
 
