@@ -5,7 +5,6 @@
 - Tehnoloogia
 - Projekti alus
 - Funktsionaalsete nõuete loetelu
-- Tööde jaotus
 - Koostajad
 
 ## Tehnoloogia
