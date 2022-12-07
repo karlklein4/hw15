@@ -32,10 +32,11 @@ def wait():
 wait()
 
 #List of words
-file = open("words.txt", "r")
+file = open("words.txt", "r") # create file object and save it into a variable called file
   
 # reading the file
-data = file.read()
+data = file.read() # read in data from the file object
+print("data", data)
   
 # replacing end splitting the text 
 # when newline ('\n') is seen.
@@ -73,8 +74,8 @@ while True:
     if game.guesses_left > 1:
         print("You have", game.guesses_left, "mistakes left.")
     else:
-        print("You have", game.guesses_left, "mistake left.")
-    guess = input("Guess a letter: ")
+        print("You have", game.guesses_left, "mistakes left.")
+    guess = input("Guess a letter: ")[0]
     if guess in game.word:
         print("Let me check")
 
@@ -97,7 +98,7 @@ while True:
             print("You already guessed", guess)
             wrong_letter()
         else:
-            print(guess, "is not in my word")
+            print(guess[0], "is not in my word")
             game.wrong_guesses.append(guess)
             game.guesses_left -= 1
             add_letter()

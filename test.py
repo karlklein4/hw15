@@ -5,5 +5,5 @@ def tests():
         print("Test failed")
     else:
         print("Test passed")
-    
+tests()   
     
