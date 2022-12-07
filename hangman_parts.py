@@ -28,7 +28,7 @@ def parts(x):
         print('   ',  '|    |')
         print('   ',  '|    O')
         print('   ',  '|   \\|')
-        print('   ',  '|     ')
+        print('   ',  '|    |')
         print('   ',  '|     ')
         print('------------')
     if x == 4:

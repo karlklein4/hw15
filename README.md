@@ -21,13 +21,12 @@ Projekti aluseks on võetud [Tech with Mike koodibaas](https://www.mrmichaelscla
 
 - Äraarvatava sõna valib programm.
 - Sõna võetakse tekstifailist suvalise valiku põhimõttel.
-- Enne sõna võtmist tekstifailist kontrollitakse funktsiooniga tekstifaili sisu korrektsust (ühel real on üks sõna, iga sõna sisaldab ainult tähti, kõik tähed on väiketähed, sõna pikkus on vähemalt 6 tähte).
 
 ### Arvamiste haldamine
 
 - Arvamiste arv on piiramatu, eksimiste arv on 6.
 - Programm kuvab kasutajatele allesjäänud eksimuste arvu enne iga arvamist.
-- Kasutaja annab sisendi terminali kaudu, sisendiks võib olla täht.
+- Kasutaja annab sisendi terminali kaudu, sisendiks võib olla üks täht või sõne, aga arvestatakse alati ainult esimest tähte.
 - Programm jätab meelde kõik unikaalsed sisendid kasutajalt.
 - Kasutajalt sisendi saamisel programm võrdleb, kas kasutaja sisestatud täht on äraarvatavas sõnas olemas.
 
