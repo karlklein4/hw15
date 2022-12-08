@@ -75,6 +75,13 @@ while True:
     else:
         print("You have", game.guesses_left, "mistakes left.")
     guess = input("Guess a letter: ")[0]
+    def check_guess(l):
+        if l.isalpha():
+            return True
+        else:
+            print("A valid guess is a letter.")
+            return False
+    check_guess(guess)
     if guess in game.word:
         print("Let me check")
 
@@ -115,3 +122,13 @@ while True:
         break
 
 # https://www.mrmichaelsclass.com/python-programming/python-projects/hangman
+
+
+def tests(game):
+    for i in game.wrong_guesses:
+        if check_guess(i) == False:
+            print("Test failed")
+            break
+    else:
+        print("Test passed")
+tests(game)   
