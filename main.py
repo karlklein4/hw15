@@ -36,7 +36,6 @@ file = open("words.txt", "r") # create file object and save it into a variable c
   
 # reading the file
 data = file.read() # read in data from the file object
-print("data", data)
   
 # replacing end splitting the text 
 # when newline ('\n') is seen.
